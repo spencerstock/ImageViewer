@@ -33,6 +33,7 @@ public class image_details extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),FullscreenActivity.class);
                 intent.putExtra("Image_Key", temp);
                 startActivity(intent);
+                //test change
 
 
             }
